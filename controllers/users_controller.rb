@@ -2,18 +2,24 @@ class UsersController < Sinatra::Base
 
   $users = [{
     id:0,
-    name: "John Smith",
-    email: "js@yahoo.com"
+    first_name: "John Smith",
+    last_name: "John Smith",
+    email: "js@yahoo.com",
+    age: 2
     },
     {
     id:1,
-    name: "Bob Smith",
-    email: "bs@gmail.com"
+    first_name: "Bob Smith",
+    last_name: "Bob Smith",
+    email: "bs@gmail.com",
+    age: 40
     },
     {
     id:2,
-    name: "Steve Smith",
-    email: "ss@volkswagon.de"
+    first_name: "Steve Smith",
+    last_name: "Steve Smith",
+    email: "ss@volkswagon.de",
+    age: 90
     }]
 
   # sets root as the parent-directory of the current file
