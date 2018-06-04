@@ -1,0 +1,11 @@
+
+<h1>This is the Index page.</h1>
+
+<!-- no equals to have logic -->
+<% @users.each do |user| %>
+  <div>
+    <h3><%= user[:first_name] user[:last_name] %></h3>
+    <p><%= user[:age] %></p>
+    <p><%= user[:email] %></p>
+  </div>
+<% end %>
